@@ -1,4 +1,10 @@
 # Treap_ADT
+
+A treap is a binary search tree that maintains a heap property. Each node in the treap has two attributes: a key and a priority. The keys follow the binary search tree property, and the priorities follow the max-heap property. Specifically, for any node in the treap, the key of the node is greater than or equal to all keys in its left subtree and less than or equal to all keys in its right subtree. The priorities are assigned randomly, and the treap is constructed such that the priorities satisfy the max-heap property. This combination of properties ensures that the treap is both a binary search tree and a max-heap, allowing efficient search, insertion, and deletion operations.
+
+The key operations in a treap include rotation, searching, insertion, and deletion. Rotations are used to maintain the heap property during insertion and deletion. There are two types of rotations: right rotation and left rotation. Right rotation is performed when a left child has a higher priority than its parent, and left rotation is performed when a right child has a higher priority than its parent. These rotations are used to maintain the max-heap property after insertion and deletion operations. Searching in a treap is similar to searching in a regular binary search tree. Insertion involves adding a new node with a given key and a randomly generated priority while maintaining the treap properties. Deletion removes a node with a given key from the treap while preserving the binary search tree and max-heap properties. Treaps find applications in various areas such as randomized binary search trees, priority queues, and optimization algorithms where balancing search and insertion operations is crucial for performance.
+
+# CODE
 TreapNode Class:
 
 This class represents a node in the Treap data structure. Each node contains an element (the value of the node), left and right pointers (pointing to the left and right children, respectively), and a priority value used for maintaining the heap property.
