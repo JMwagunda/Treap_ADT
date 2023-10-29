@@ -31,7 +31,7 @@ This class represents a node in the Treap data structure. Each node contains an 
 |_inorder(t), _preorder(t), _postorder(t) Methods|: Recursive methods to perform inorder, preorder, and postorder traversals, respectively, on the Treap rooted at node t.
 |inorder(), preorder(), postorder() Methods|: Public methods to get lists representing the inorder, preorder, and postorder traversals, respectively. These methods call the corresponding recursive traversal methods.
 
-##Main Program:
+## Main Program:
 The main part of the program is a loop where the user can choose different operations to perform on the Treap: insertion, search, counting nodes, checking if the Treap is empty, and making the Treap empty.
 
 After each operation, the program displays the Treap in inorder, preorder, and postorder traversals.
